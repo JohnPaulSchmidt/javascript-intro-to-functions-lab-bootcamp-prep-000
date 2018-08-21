@@ -14,7 +14,7 @@ function logWhisper(string) {
   console.log('hello')
 }
 
-function sayHiToGrandma(hello) {
+function sayHiToGrandma(string) {
   expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
   return 'I can\'t hear you!'
 }
