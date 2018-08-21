@@ -22,7 +22,7 @@ function sayHiToGrandma(lowercase) {
   return "I can't hear you!"
 }
 
-var uppercase = "HELLO!"
+var uppercase = sayHiToGrandma("HELLO!")
 
 uppercase.toUpperCase() === uppercase
 
