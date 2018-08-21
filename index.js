@@ -26,3 +26,11 @@ function sayHiToGrandma(HELLO) {
 function sayHiToGrandma(string) {
   return "I love you, too."
 }
+
+var uppercase = "HELLO!"
+
+uppercase.toUpperCase() === uppercase
+
+var lowercase = "hello!"
+
+lowercase.toLowerCase() === lowercase
