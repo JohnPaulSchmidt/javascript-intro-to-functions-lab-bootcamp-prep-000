@@ -19,7 +19,7 @@ function sayHiToGrandma(uppercaseTalk) {
 }
 
 function sayHiToGrandma(lowercase) {
-  return "I can't hear you!"
+  return lowercase
 }
 
 var uppercaseTalk = sayHiToGrandma("HELLO!")
