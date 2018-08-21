@@ -18,7 +18,7 @@ function sayHiToGrandma(uppercaseTalk) {
   return "YES INDEED!"
 }
 
-function sayHiToGrandma(lowercase) {
+function sayHiToGrandma() {
   return lowercase
 }
 
