@@ -14,18 +14,15 @@ function logWhisper(string) {
   console.log('hello')
 }
 
-function sayHiToGrandma(string) {
+function sayHiToGrandma(lowercase) {
   expect(sayHiToGrandma('hello')).toEqual("I can't hear you!");
   return 'I can\'t hear you!';
 }
 
-function sayHiToGrandma(HELLO) {
+function sayHiToGrandma(uppercase) {
   return "YES INDEED!"
 }
 
-function sayHiToGrandma(string) {
-  return "I love you, too."
-}
 
 var uppercase = "HELLO!"
 
@@ -34,3 +31,9 @@ uppercase.toUpperCase() === uppercase
 var lowercase = "hello!"
 
 lowercase.toLowerCase() === lowercase
+
+var mixedCase = "I love you, Grandma!" === mixedCase
+
+function sayHiToGrandma(mixedCase) {
+  return "I love you, too."
+}
