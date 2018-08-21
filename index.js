@@ -14,8 +14,7 @@ function logWhisper(string) {
   console.log('hello')
 }
 
-function sayHiToGrandma(string) {
-  describe(sayHiToGrandma() === uppercase)
+function sayHiToGrandma(uppercase) {
   return "YES INDEED!"
 }
 
