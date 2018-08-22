@@ -18,6 +18,19 @@ function sayHiToGrandma(uppercase) {
   return "YES INDEED!"
 }
 
+function sayHiToGrandma(lowercase) {
+  return "I can/'t hear you!"
+}
+
+function sayHiToGrandma(mixedcase) {
+  return "I love you, too."
+}
 
 var uppercase = "HELLO!"
 uppercase.toUpperCase() === uppercase
+
+var lowercase = "hello"
+lowercase.toLowerCase() === lowercase
+
+var mixedcase = "I love you, Grandma."
+mixedcase.toLowerCase() === mixedcase
