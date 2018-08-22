@@ -19,3 +19,9 @@ var uppercase = "HELLO"
 function sayHiToGrandma(uppercase) {
   return "YES INDEED!"
 }
+
+var lowercase = "hello"
+
+function sayHiToGrandma(lowercase) {
+  return "I can/'t hear you!"
+}
