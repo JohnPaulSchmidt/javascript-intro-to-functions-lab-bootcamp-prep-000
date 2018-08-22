@@ -18,7 +18,7 @@ function sayHiToGrandma(uppercase) {
   it('returns "YES INDEED!" if `string` is uppercase', function() {
     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   })
-  return "YES INDEED!"
+  return uppercase.toUpperCase("YES INDEED!")
 }
 
 function sayHiToGrandma(lowercase) {
