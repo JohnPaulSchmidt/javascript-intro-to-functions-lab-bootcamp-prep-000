@@ -26,7 +26,7 @@ function sayHiToGrandma(mixedcase) {
   return "I love you, too."
 }
 
-var uppercase = "HELLO!"
+var uppercase = "HELLO"
 uppercase.toUpperCase() === uppercase
 
 var lowercase = "hello"
