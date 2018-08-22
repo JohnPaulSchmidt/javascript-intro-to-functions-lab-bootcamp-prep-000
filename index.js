@@ -23,5 +23,5 @@ function sayHiToGrandma(uppercase) {
 var lowercase = "hello"
 
 function sayHiToGrandma(lowercase) {
-  return "I can/'t hear you!"
+  return "I can\'t hear you!"
 }
