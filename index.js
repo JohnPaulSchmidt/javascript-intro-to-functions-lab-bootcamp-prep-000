@@ -14,11 +14,11 @@ function logWhisper(string) {
   console.log('hello')
 }
 
-function sayHiToGrandma(uppercase) {
+function sayHiToGrandma(string) {
   it('returns "YES INDEED!" if `string` is uppercase', function() {
     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   })
-return "YES INDEED!"
+  return "YES INDEED!"
 }
 
 function sayHiToGrandma(lowercase) {
